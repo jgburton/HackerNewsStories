@@ -17,7 +17,6 @@ export const Story = ({ storyId }) => {
                 <a href={story.url}>{story.title}</a>
             </StoryTitle>
 
-
             <StoryMeta>
                 <span  data-testid="story-by">
                     <StoryMetaElement color="#000">By:</StoryMetaElement>{story.by}
